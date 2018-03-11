@@ -54,7 +54,6 @@ def exchange(bitcoins):
 	time.sleep(10)
 
 def buy_new_location(next_location_id):
-	print(next_location_id)
 	if next_location_id == 3:
 		next_location_id = 4
 	elif next_location_id == 7:
